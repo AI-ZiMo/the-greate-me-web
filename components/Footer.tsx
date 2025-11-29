@@ -32,9 +32,19 @@ export default function Footer({ language }: FooterProps) {
         </div>
 
         <div className="border-t border-gray-800 pt-8">
-          <p className="text-center text-gray-500 text-sm">
-            {t.footer.copyright}
-          </p>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
+            <p className="text-center text-gray-500 text-sm">
+              {t.footer.copyright}
+            </p>
+            <a
+              href="/privacy-policy.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-yellow-400 text-sm transition-colors underline"
+            >
+              {t.footer.privacy}
+            </a>
+          </div>
         </div>
       </div>
     </footer>

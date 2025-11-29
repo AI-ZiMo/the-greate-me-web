@@ -48,6 +48,7 @@ interface Translation {
   footer: {
     tagline: string;
     copyright: string;
+    privacy: string;
   };
 }
 
@@ -106,6 +107,7 @@ export const translations: Record<Language, Translation> = {
     footer: {
       tagline: 'From The Great Me',
       copyright: '© 2025 The Great Me. All rights reserved.',
+      privacy: 'Privacy Policy',
     },
   },
   zh: {
@@ -162,6 +164,7 @@ export const translations: Record<Language, Translation> = {
     footer: {
       tagline: '来自伟大的我',
       copyright: '© 2025 伟大的我。保留所有权利。',
+      privacy: '隐私政策',
     },
   },
 };

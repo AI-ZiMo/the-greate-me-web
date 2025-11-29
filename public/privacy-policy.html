@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - The Great Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header {
+            border-bottom: 3px solid #D4AF37;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .meta {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-bottom: 2px solid #D4AF37;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #34495e;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: #2c3e50;
+        }
+
+        a {
+            color: #D4AF37;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight {
+            background-color: #fff9e6;
+            padding: 15px;
+            border-left: 4px solid #D4AF37;
+            margin: 20px 0;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .language-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #D4AF37;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .language-toggle:hover {
+            background: #c49d2e;
+        }
+
+        .chinese {
+            display: none;
+        }
+
+        .english {
+            display: block;
+        }
+
+        body.lang-zh .chinese {
+            display: block;
+        }
+
+        body.lang-zh .english {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .language-toggle {
+                top: 10px;
+                right: 10px;
+                padding: 8px 15px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="language-toggle" onclick="toggleLanguage()">
+        <span class="english">中文</span>
+        <span class="chinese">English</span>
+    </button>
+
+    <div class="container">
+        <!-- English Version -->
+        <div class="english">
+            <header>
+                <h1>Privacy Policy for The Great Me</h1>
+                <p class="meta"><strong>Effective Date:</strong> November 29, 2025</p>
+                <p class="meta"><strong>Last Updated:</strong> November 29, 2025</p>
+            </header>
+
+            <section class="section">
+                <h2>Introduction</h2>
+                <p>Welcome to The Great Me ("we," "our," or "us"). We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and share information when you use our mobile application and web application.</p>
+            </section>
+
+            <section class="section">
+                <h2>Contact Information</h2>
+                <p>If you have any questions about this privacy policy, please contact us at:</p>
+                <ul>
+                    <li><strong>Developer:</strong> 蒋政涛 (Jiang Zhengtao)</li>
+                    <li><strong>Email:</strong> jiangzhengtao02@gmail.com</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>1. Information We Collect</h2>
+
+                <h3>1.1 Information You Provide</h3>
+                <p><strong>Task Content:</strong> We collect and store content you create through our service:</p>
+                <ul>
+                    <li>Task descriptions and titles</li>
+                    <li>Task completion status</li>
+                    <li>Task start and end times</li>
+                    <li>Language preference (Chinese or English)</li>
+                </ul>
+
+                <p><strong>AI Chat Messages:</strong> When you use the AI assistant feature, we collect:</p>
+                <ul>
+                    <li>Your chat messages and questions</li>
+                    <li>Task context shared with the AI to provide relevant assistance</li>
+                </ul>
+
+                <div class="highlight">
+                    <p><strong>Important:</strong> We do not collect any account information. The Great Me does not require user registration, and we do not collect email addresses, passwords, usernames, or any other personal identifiers.</p>
+                </div>
+
+                <h3>1.2 Information We Collect Automatically</h3>
+                <p><strong>Local Device Storage:</strong></p>
+                <ul>
+                    <li>All your tasks and preferences are stored locally on your device using AsyncStorage (mobile) or browser local storage (web)</li>
+                    <li>We do not collect or store this data on our servers</li>
+                </ul>
+
+                <p><strong>No Analytics or Tracking:</strong></p>
+                <ul>
+                    <li>We do not use analytics services</li>
+                    <li>We do not track your usage patterns</li>
+                    <li>We do not collect device information, IP addresses, or location data</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>2. How We Use Your Information</h2>
+                <p>We use the information we collect to:</p>
+                <ul>
+                    <li><strong>Provide core functionality:</strong> Store and manage your tasks on your device</li>
+                    <li><strong>Enable AI assistance:</strong> Send your chat messages and task context to AI service providers to provide intelligent task management assistance</li>
+                    <li><strong>Text-to-speech:</strong> Convert text to speech for narration features using Aliyun TTS service</li>
+                    <li><strong>Language preferences:</strong> Remember your language choice (Chinese or English)</li>
+                    <li><strong>Improve user experience:</strong> Maintain your tasks and settings across app sessions</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>3. How We Share Your Information</h2>
+
+                <h3>Service Providers</h3>
+                <p>We share information with third-party service providers who perform services on our behalf:</p>
+
+                <p><strong>Aliyun (阿里云)</strong> - Text-to-Speech Service</p>
+                <ul>
+                    <li><strong>Purpose:</strong> Converts text to audio for narration features</li>
+                    <li><strong>Data Shared:</strong> Text content from the app and your language preference</li>
+                    <li><strong>Privacy Policy:</strong> <a href="https://www.alibabacloud.com/help/en/legal/latest/alibaba-cloud-international-website-privacy-policy" target="_blank">Aliyun Privacy Policy</a></li>
+                </ul>
+
+                <p><strong>OpenAI-Compatible AI Service</strong></p>
+                <ul>
+                    <li><strong>Purpose:</strong> Provides AI-powered task management assistance</li>
+                    <li><strong>Data Shared:</strong> Your chat messages, current task list, task statistics, current time and date</li>
+                    <li><strong>Note:</strong> The actual AI service provider depends on your configuration. This may be OpenAI, Google Gemini, or other compatible services.</li>
+                </ul>
+
+                <h3>What We DO NOT Share</h3>
+                <ul>
+                    <li>We do not sell your personal information</li>
+                    <li>We do not share your data with advertisers</li>
+                    <li>We do not use your data for marketing purposes</li>
+                    <li>We do not share your task data with any third parties except the service providers listed above</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>4. Data Retention</h2>
+                <p><strong>Local Storage:</strong> Your task data and preferences are stored on your device until you manually delete them. We do not automatically delete your data.</p>
+
+                <p><strong>Cloud Services:</strong> Text sent to Aliyun TTS and AI service providers is processed in real-time and is not permanently stored by us. Please refer to the respective service providers' privacy policies for their data retention practices.</p>
+
+                <p><strong>Data Deletion:</strong> You can delete your data at any time by:</p>
+                <ul>
+                    <li>Deleting individual tasks within the app</li>
+                    <li>Clearing the app data in your device settings (mobile)</li>
+                    <li>Clearing browser data/local storage (web)</li>
+                    <li>Uninstalling the app (mobile)</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>5. Your Rights and Choices</h2>
+                <p>You have the following rights regarding your personal information:</p>
+                <ul>
+                    <li><strong>Access:</strong> All your data is stored locally on your device and is always accessible to you</li>
+                    <li><strong>Correction:</strong> You can update or correct your task information directly in the app</li>
+                    <li><strong>Deletion:</strong> You can delete individual tasks or clear all app data at any time</li>
+                    <li><strong>Data Portability:</strong> Your data is stored in standard JSON format in local storage</li>
+                    <li><strong>Opt-Out of AI Features:</strong> You can choose not to use the AI assistant feature. The app will function normally without it.</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>6. Security</h2>
+                <p>We implement appropriate technical and organizational measures to protect your personal information:</p>
+                <ul>
+                    <li><strong>Local Storage Encryption:</strong> Your data is stored using platform-standard secure storage mechanisms</li>
+                    <li><strong>HTTPS Communications:</strong> All communications with third-party services use encrypted HTTPS connections</li>
+                    <li><strong>No Central Database:</strong> We do not maintain a central database of user information, reducing the risk of data breaches</li>
+                    <li><strong>API Key Protection:</strong> Service provider API keys are stored securely and never exposed to users</li>
+                </ul>
+                <p>However, no method of transmission over the Internet or electronic storage is 100% secure.</p>
+            </section>
+
+            <section class="section">
+                <h2>7. Children's Privacy</h2>
+                <p>Our service is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13.</p>
+                <p>If you are a parent or guardian and believe we have collected information from a child under 13, please contact us immediately.</p>
+            </section>
+
+            <section class="section">
+                <h2>8. International Data Transfers</h2>
+                <p>The Great Me is available to users worldwide. When you use our AI assistant and text-to-speech features, your data may be transferred to and processed by:</p>
+                <ul>
+                    <li><strong>Aliyun (阿里云):</strong> Servers located in China</li>
+                    <li><strong>AI Service Providers:</strong> Server locations depend on the configured provider (may include US, EU, or other regions)</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>9. Changes to This Privacy Policy</h2>
+                <p>We may update this privacy policy from time to time. We will notify you of any material changes by updating the "Last Updated" date and displaying a notification in the app for significant changes.</p>
+            </section>
+
+            <footer style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #ddd; color: #666; font-size: 0.9em;">
+                <p>By using The Great Me, you agree to this privacy policy.</p>
+                <p>&copy; 2025 蒋政涛 (Jiang Zhengtao). All rights reserved.</p>
+            </footer>
+        </div>
+
+        <!-- Chinese Version -->
+        <div class="chinese">
+            <header>
+                <h1>隐私政策 - 伟大的我</h1>
+                <p class="meta"><strong>生效日期：</strong> 2025年11月29日</p>
+                <p class="meta"><strong>最后更新：</strong> 2025年11月29日</p>
+            </header>
+
+            <section class="section">
+                <h2>简介</h2>
+                <p>欢迎使用"伟大的我"（以下简称"我们"）。我们尊重您的隐私，致力于保护您的个人数据。本隐私政策说明我们在您使用我们的移动应用程序和网页应用程序时如何收集、使用和共享信息。</p>
+            </section>
+
+            <section class="section">
+                <h2>联系方式</h2>
+                <p>如果您对本隐私政策有任何疑问，请通过以下方式联系我们：</p>
+                <ul>
+                    <li><strong>开发者：</strong> 蒋政涛</li>
+                    <li><strong>电子邮件：</strong> jiangzhengtao02@gmail.com</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>1. 我们收集的信息</h2>
+
+                <h3>1.1 您提供的信息</h3>
+                <p><strong>任务内容：</strong> 我们收集并存储您通过我们的服务创建的内容：</p>
+                <ul>
+                    <li>任务描述和标题</li>
+                    <li>任务完成状态</li>
+                    <li>任务开始和结束时间</li>
+                    <li>语言偏好（中文或英文）</li>
+                </ul>
+
+                <p><strong>AI聊天消息：</strong> 当您使用AI助手功能时，我们收集：</p>
+                <ul>
+                    <li>您的聊天消息和问题</li>
+                    <li>与AI共享的任务上下文，以提供相关帮助</li>
+                </ul>
+
+                <div class="highlight">
+                    <p><strong>重要说明：</strong> 我们不收集任何账户信息。"伟大的我"不需要用户注册，我们不收集电子邮件地址、密码、用户名或任何其他个人身份信息。</p>
+                </div>
+
+                <h3>1.2 我们自动收集的信息</h3>
+                <p><strong>本地设备存储：</strong></p>
+                <ul>
+                    <li>您的所有任务和偏好设置都存储在您的设备本地，使用AsyncStorage（移动端）或浏览器本地存储（网页端）</li>
+                    <li>我们不在我们的服务器上收集或存储这些数据</li>
+                </ul>
+
+                <p><strong>无分析或跟踪：</strong></p>
+                <ul>
+                    <li>我们不使用分析服务</li>
+                    <li>我们不跟踪您的使用模式</li>
+                    <li>我们不收集设备信息、IP地址或位置数据</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>2. 我们如何使用您的信息</h2>
+                <p>我们使用收集的信息用于：</p>
+                <ul>
+                    <li><strong>提供核心功能：</strong> 在您的设备上存储和管理您的任务</li>
+                    <li><strong>启用AI辅助：</strong> 将您的聊天消息和任务上下文发送到AI服务提供商，以提供智能任务管理协助</li>
+                    <li><strong>文本转语音：</strong> 使用阿里云TTS服务将文本转换为语音，用于旁白功能</li>
+                    <li><strong>语言偏好：</strong> 记住您的语言选择（中文或英文）</li>
+                    <li><strong>改善用户体验：</strong> 在应用会话之间维护您的任务和设置</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>3. 我们如何共享您的信息</h2>
+
+                <h3>服务提供商</h3>
+                <p>我们与代表我们执行服务的第三方服务提供商共享信息：</p>
+
+                <p><strong>阿里云 (Aliyun)</strong> - 文本转语音服务</p>
+                <ul>
+                    <li><strong>目的：</strong> 将文本转换为音频以实现旁白功能</li>
+                    <li><strong>共享的数据：</strong> 应用中的文本内容和您的语言偏好</li>
+                    <li><strong>隐私政策：</strong> <a href="https://www.alibabacloud.com/help/zh/legal/latest/privacy-policy" target="_blank">阿里云隐私政策</a></li>
+                </ul>
+
+                <p><strong>OpenAI兼容的AI服务</strong></p>
+                <ul>
+                    <li><strong>目的：</strong> 提供AI驱动的任务管理辅助</li>
+                    <li><strong>共享的数据：</strong> 您的聊天消息、当前任务列表、任务统计、当前时间和日期</li>
+                    <li><strong>注意：</strong> 实际的AI服务提供商取决于您的配置。可能是OpenAI、Google Gemini或其他兼容服务。</li>
+                </ul>
+
+                <h3>我们不会共享的内容</h3>
+                <ul>
+                    <li>我们不出售您的个人信息</li>
+                    <li>我们不与广告商共享您的数据</li>
+                    <li>我们不将您的数据用于营销目的</li>
+                    <li>除上述列出的服务提供商外，我们不与任何第三方共享您的任务数据</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>4. 数据保留</h2>
+                <p><strong>本地存储：</strong> 您的任务数据和偏好设置存储在您的设备上，直到您手动删除它们。我们不会自动删除您的数据。</p>
+
+                <p><strong>云服务：</strong> 发送到阿里云TTS和AI服务提供商的文本会实时处理，我们不会永久存储。请参考相应服务提供商的隐私政策了解其数据保留做法。</p>
+
+                <p><strong>数据删除：</strong> 您可以随时通过以下方式删除数据：</p>
+                <ul>
+                    <li>在应用内删除单个任务</li>
+                    <li>在设备设置中清除应用数据（移动端）</li>
+                    <li>清除浏览器数据/本地存储（网页端）</li>
+                    <li>卸载应用（移动端）</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>5. 您的权利和选择</h2>
+                <p>关于您的个人信息，您拥有以下权利：</p>
+                <ul>
+                    <li><strong>访问：</strong> 您的所有数据都存储在您的设备本地，您随时可以访问</li>
+                    <li><strong>更正：</strong> 您可以直接在应用中更新或更正任务信息</li>
+                    <li><strong>删除：</strong> 您可以随时删除单个任务或清除所有应用数据</li>
+                    <li><strong>数据可移植性：</strong> 您的数据以标准JSON格式存储在本地存储中</li>
+                    <li><strong>退出AI功能：</strong> 您可以选择不使用AI助手功能。应用在没有它的情况下也能正常运行。</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>6. 安全</h2>
+                <p>我们实施适当的技术和组织措施来保护您的个人信息：</p>
+                <ul>
+                    <li><strong>本地存储加密：</strong> 您的数据使用平台标准的安全存储机制存储</li>
+                    <li><strong>HTTPS通信：</strong> 与第三方服务的所有通信都使用加密的HTTPS连接</li>
+                    <li><strong>无中央数据库：</strong> 我们不维护用户信息的中央数据库，降低数据泄露风险</li>
+                    <li><strong>API密钥保护：</strong> 服务提供商的API密钥安全存储，永不向用户公开</li>
+                </ul>
+                <p>但是，没有任何互联网传输或电子存储方法是100%安全的。</p>
+            </section>
+
+            <section class="section">
+                <h2>7. 儿童隐私</h2>
+                <p>我们的服务面向13岁及以上的用户。我们不会故意收集13岁以下儿童的个人信息。</p>
+                <p>如果您是家长或监护人，并认为我们收集了13岁以下儿童的信息，请立即联系我们。</p>
+            </section>
+
+            <section class="section">
+                <h2>8. 国际数据传输</h2>
+                <p>"伟大的我"面向全球用户。当您使用我们的AI助手和文本转语音功能时，您的数据可能会传输到以下服务商并由其处理：</p>
+                <ul>
+                    <li><strong>阿里云：</strong> 位于中国的服务器</li>
+                    <li><strong>AI服务提供商：</strong> 服务器位置取决于配置的提供商（可能包括美国、欧盟或其他地区）</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>9. 本隐私政策的变更</h2>
+                <p>我们可能会不时更新本隐私政策。我们将通过更新"最后更新"日期并在应用中显示通知（针对重大变更）来通知您任何重大变更。</p>
+            </section>
+
+            <footer style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #ddd; color: #666; font-size: 0.9em;">
+                <p>使用"伟大的我"即表示您同意本隐私政策。</p>
+                <p>&copy; 2025 蒋政涛. 保留所有权利。</p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        function toggleLanguage() {
+            const body = document.body;
+            if (body.classList.contains('lang-zh')) {
+                body.classList.remove('lang-zh');
+                localStorage.setItem('privacy-lang', 'en');
+            } else {
+                body.classList.add('lang-zh');
+                localStorage.setItem('privacy-lang', 'zh');
+            }
+        }
+
+        // Load saved language preference
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('privacy-lang');
+            if (savedLang === 'zh') {
+                document.body.classList.add('lang-zh');
+            }
+        });
+    </script>
+</body>
+</html>
